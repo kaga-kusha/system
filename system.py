@@ -32,7 +32,7 @@ print("""
       mk-fill[4]                 [5]                  [6]
 =========================================================
 """)
-input1 = input("echo:")
+input1 = input("echo-numurs:")
 
 if input1 == '1':
     print("=====================echo-neme-fill======================")
@@ -51,11 +51,11 @@ if input1 == '1':
         if input3 == '2':
             print("exit-[sinon]")
         if input3 == '3':
-            print("┌───────────┬───────────────────┬─────────┬────────┬─────────────────────────────┬──────┬────────┬──────────┐")
-            print("│    IP▴    │    domain-name    │  Name:  │  game: │         Vendor              │ Sent │ Recvd  │   Seen   │")
-            print("├───────────┼───────────────────┼─────────┼────────┼─────────────────────────────┼──────┼────────┼──────────┤")
-            print("│ xx.x.x.xx │ xx:xx:xx:xx:xx:xx │  sinon  │  xxxx  │  PCS Computer Systems GmbH  │ x B  │ x B    │ xx:xx:xx │")
-            print("└───────────┴───────────────────┴─────────┴────────┴─────────────────────────────┴──────┴────────┴──────────┘")
+            print("┌───────────────┬───────────────────┬─────────┬────────┬─────────────────────────────┬──────┬────────┬──────────┐")
+            print("│      IP▴      │    domain-name    │  Name:  │  game: │         Vendor              │ Sent │ Recvd  │   Seen   │")
+            print("├───────────────┼───────────────────┼─────────┼────────┼─────────────────────────────┼──────┼────────┼──────────┤")
+            print("│ 41.249.167.79 │ xx:xx:xx:xx:xx:xx │  sinon  │  xxxx  │  PCS Computer Systems GmbH  │ x B  │ x B    │ xx:xx:xx │")
+            print("└───────────────┴───────────────────┴─────────┴────────┴─────────────────────────────┴──────┴────────┴──────────┘")
             # input()
 
     if input2 == 'meebl.chr':
@@ -70,11 +70,11 @@ if input1 == '1':
         if input3 == '2':
             print("exit-[meebl]")
         if input3 == '3':
-            print("┌───────────┬───────────────────┬─────────┬────────┬─────────────────────────────┬──────┬────────┬──────────┐")
-            print("│    IP▴    │    domain-name    │  Name:  │  game: │         Vendor              │ Sent │ Recvd  │   Seen   │")
-            print("├───────────┼───────────────────┼─────────┼────────┼─────────────────────────────┼──────┼────────┼──────────┤")
-            print("│ xx.x.x.xx │ xx:xx:xx:xx:xx:xx │  meebl  │  xxxx  │  PCS Computer Systems GmbH  │ x B  │ x B    │ xx:xx:xx │")
-            print("└───────────┴───────────────────┴─────────┴────────┴─────────────────────────────┴──────┴────────┴──────────┘")
+            print("┌───────────────┬───────────────────┬─────────┬────────┬─────────────────────────────┬──────┬────────┬──────────┐")
+            print("│      IP▴      │    domain-name    │  Name:  │  game: │         Vendor              │ Sent │ Recvd  │   Seen   │")
+            print("├───────────────┼───────────────────┼─────────┼────────┼─────────────────────────────┼──────┼────────┼──────────┤")
+            print("│   xx.x.x.xx   │ xx:xx:xx:xx:xx:xx │  meebl  │  xxxx  │  PCS Computer Systems GmbH  │ x B  │ x B    │ xx:xx:xx │")
+            print("└───────────────┴───────────────────┴─────────┴────────┴─────────────────────────────┴──────┴────────┴──────────┘")
             # input()
 if input1 == '2':
     # exit()
@@ -85,7 +85,7 @@ if input1 == '2':
     print("=========================================================")
     input2 = input("echo:")
     if input2 == '1':
-        print(1000*"satori.chr","moniko.chr","yuki.chr","naruki.chr","femk.chr", sep='    ')
+        print("satori.chr",*"moniko.chr","yuki.chr","naruki.chr","femk.chr", sep="|")
         input3 = input("Choose-a-file:")
         if input3 == 'satori.chr':
                     print("=========================================================")
@@ -93,27 +93,47 @@ if input1 == '2':
                     print("                                                         ")
                     print("             [4]                 [5]                  [6]")
                     print("=========================================================")
-                    input2 = input('echo:')
+                    input2 = input("echo:")
                     if input2 == "3":
-                                    print("┌────────────┬────────────┐")
-                                    print("│ name:      │   satori   │")
-                                    print("├────────────┼────────────┤")
-                                    print("│ club:      │            │")
-                                    print("├────────────┼────────────┤")
-                                    print("│            │            │")                        
-                                    print("├────────────┼────────────┤")
-                                    print("│            │            │")                        
-                                    print("└────────────┴────────────┘")
+                                    print("             *             ")
+                                    print("            / \            ")
+                                    print("           /   \           ")
+                                    print("          /     \          ")
+                                    print("         /       \         ")
+                                    print("        /         \        ")
+                                    print("       /           \       ")
+                                    print("      /             \      ")
+                                    print("     /               \     ")
+                                    print("    /                 \    ")
+                                    print("   /                   \   ")
+                                    print("  /                     \  ")
+                                    print(" /                       \ ")
+                                    print("┌────────────┬────────────┐ ")
+                                    print("* name:      *   satori   * ")
+                                    print("├────────────┼────────────┤ ")
+                                    print("* club:      *            * ")
+                                    print("├────────────┼────────────┤ ")
+                                    print("*            *            * ")
+                                    print("├────────────┼────────────┤ ")
+                                    print("*            *            * ")
+                                    print("└────────────┴────────────┘ ")
 
     if input2 == '2':
+        print('text-1')
         text1 = input("texit-1:")
+        print('text-2')
         text2 = input("texit-2:")
-        text3 = input("texit-3:")        
+        print('text-3')
+        text3 = input("texit-3:")
+        print('text-4')
         text4 = input("texit-4:")
         print("=========================================================")
-        print("       satori[1]           moniko[2]              yuki[3]")
-        print("                                                         ")
-        print("       naruki[4]             femk[5]                  [6]")
+        print("    1)satori                                             ")
+        print("    2)moniko                                             ")
+        print("    3)yuki                                               ")
+        print("    4)naruki                                             ")
+        print("    5)femk                                               ")
+        print("    6)mc                                                 ")
         print("=========================================================")
         input3 = input("speaker:")
         if input3 == '1':
@@ -141,3 +161,10 @@ if input1 == '2':
             print('femk-2:',text2)
             print('femk-3:',text3)
             print('femk-4:',text4)
+        if input3 == '6':
+            print('mc-1:',text1)
+            print('mc-2:',text2)
+            print('mc-3:',text3)
+            print('mc-4:',text4)
+    else:
+        print(False)
